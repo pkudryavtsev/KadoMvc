@@ -1,0 +1,24 @@
+﻿@model String
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div style="width=100px; height=50px; background=green;">
+        <a href="https://localhost:44332/swagger">Go to Swagger</a>
+    </div>
+</div>
+
+
+
+<form asp-action="Index" asp-controller="Home" method="post">
+    <input type="text" name="test" value="@Model" />
+    <input type="submit" />
+</form>
+
+@Html.Raw(Model)
+
+@Model

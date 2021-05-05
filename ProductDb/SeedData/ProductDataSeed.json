@@ -1,0 +1,90 @@
+[
+ {
+   "Name": "Flower",
+   "Price": 10,
+   "Description": "Some",
+   "PictureUrl": "",
+   "Depth": 1,
+   "Area": 1,
+   "ProductTypeId": 1,
+  "ProductBrandId": 1,
+   "CategoryId": 1
+ },
+ {
+   "Name": "Whiskey",
+   "Price": 50,
+   "Description": "Some",
+   "PictureUrl": "",
+   "Depth": 1,
+   "Area": 1,
+   "ProductTypeId": 2,
+  "ProductBrandId": 2,
+   "CategoryId": 2
+ },
+ {
+   "Name": "iPhone",
+   "Price": 700,
+   "Description": "some",
+   "PictureUrl": "",
+   "Depth": 1,
+   "Area": 1,
+   "ProductTypeId": 3,
+  "ProductBrandId": 3,
+   "CategoryId": 3
+ },
+  {
+    "Name": "Wine",
+    "Price": 15,
+    "Description": "some",
+    "PictureUrl": "",
+    "Depth": 1,
+    "Area": 1,
+    "ProductTypeId": 4,
+    "ProductBrandId": 2,
+    "CategoryId": 2
+  },
+  {
+    "Name": "Beer",
+    "Price": 5,
+    "Description": "",
+    "PictureUrl": "",
+    "Depth": 1,
+    "Area": 1,
+    "ProductTypeId": 5,
+    "ProductBrandId": 4,
+    "CategoryId": 2
+  },
+  {
+    "Name": "Good wine",
+    "Price": 50,
+    "Description": "",
+    "PictureUrl": "",
+    "Depth": 1,
+    "Area": 1,
+    "ProductTypeId": 4,
+    "ProductBrandId": 2,
+    "CategoryId": 2
+  },
+  {
+    "Name": "Nice whiskey",
+    "Price": 100,
+    "Description": "",
+    "PictureUrl": "",
+    "Depth": 1,
+    "Area": 1,
+    "ProductTypeId": 2,
+    "ProductBrandId": 5,
+    "CategoryId": 2
+  },
+  {
+    "Name": "Nice whiskey",
+    "Price": 100,
+    "Description": "",
+    "PictureUrl": "",
+    "Depth": 1,
+    "Area": 1,
+    "ProductTypeId": 2,
+    "ProductBrandId": 5,
+    "CategoryId": 2
+  }
+]
