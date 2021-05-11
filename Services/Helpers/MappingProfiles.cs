@@ -43,11 +43,13 @@ namespace Services.Helpers
             CreateMap<Order, OrderDetailsToReturnDto>()
                 .ForMember(d => d.OrderDate, o => o.MapFrom(s => s.OrderDate))
                 .ForMember(d => d.OrderItems, o => o.MapFrom(s => s.OrderItems))
-                .ForMember(d => d.OrderId, o => o.MapFrom(s => s.Id));
+                .ForMember(d => d.OrderId, o => o.MapFrom(s => s.Id))
+                .ForMember(d => d.Total, o => o.MapFrom(s => s.Total));
 
             CreateMap<OrderItem, OrderItemDto>()
                 .ForMember(d => d.BoxName, o => o.MapFrom(s => s.BoxName))
-                .ForMember(d => d.ProductNames, o => o.MapFrom(s => s.OrderProducts.Select(x => x.Name).ToList()));
+                .ForMember(d => d.ProductNames, o => o.MapFrom(s => s.OrderProducts.Select(x => x.Name).ToList()))
+                .ForMember(d => d.Subtotal, o => o.MapFrom(s => s.Price * s.Quantity));
 
         }
     }

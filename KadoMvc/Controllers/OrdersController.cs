@@ -39,7 +39,7 @@ namespace KadoMvc.Controllers
             return Ok(orders);
         }
 
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<OrderDetailsToReturnDto>> GetOrderDetailsForUser(int id)
         {
             var order = await _orderService.GetOrderDetailsForUser(id);

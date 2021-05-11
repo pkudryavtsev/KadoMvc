@@ -12,5 +12,6 @@ namespace Services.Dtos.Orders
         public List<string> ProductNames { get; set; }
         public decimal Price { get; set; }
         public int Quantity { get; set; }
+        public double Subtotal { get; set; }
     }
 }

@@ -11,5 +11,6 @@ namespace Services.Dtos.Orders
         public string OrderId { get; set; }
         public List<OrderItemDto> OrderItems { get; set; }
         public DateTimeOffset OrderDate { get; set; }
+        public double Total { get; set; }
     }
 }
